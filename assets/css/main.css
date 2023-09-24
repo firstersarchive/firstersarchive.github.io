@@ -2605,7 +2605,6 @@ input, select, textarea {
 		background-image: url("../../images/trophy1-final.png");
 		background-repeat: no-repeat;
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
