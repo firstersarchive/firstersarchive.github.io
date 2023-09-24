@@ -2602,7 +2602,8 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #000000;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/trophy1-final.png");
+		background-image: url("../../images/trophy1-final.png");
+		background-repeat: no-repeat;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3066,12 +3067,13 @@ input, select, textarea {
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
-				padding: 40em 4em;
+				padding: 20em 4em;
 				position: relative;
 				text-align: center;
 				top: auto;
 				width: 100%;
 				display: block;
+						background-repeat: no-repeat;
 			}
 
 				#header h1 {
@@ -3082,6 +3084,14 @@ input, select, textarea {
 						display: inline;
 					}
 
+		.fit.logo{
+			display: block;
+			width: 50%;
+  margin-left: 31%;
+  margin-right: auto;
+  background-color: #ffffff;
+			
+		}
 		/* Footer */
 
 			#footer {
@@ -3166,12 +3176,21 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 37.25em 1.5em;
+				padding: 20.25em 1.5em;
 			}
 
 				#header h1 {
 					font-size: 1.35em;
 				}
+			.fit.logo{
+				display: block;
+				width: 50%;
+				/*margin-left: 17%;
+			  	margin-right: auto;*/
+			  	background-color: #ffffff;
+	  	    	top: -50%;
+	  	    	left: -50%;
+		}
 
 		/* Footer */
 
@@ -3210,11 +3229,22 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 18.5em 1.5em;
+				padding: 19.5em 1.5em;
+						background-repeat: no-repeat;
 			}
 
 				#header h1 br {
 					display: none;
+				}
+				.fit.logo{
+				display: block;
+				width: 30%;
+				margin-left: 17%;
+			  	margin-right: auto;
+			  	background-color: #ffffff;
+	  	    	top: -50%;
+	  	    	left: -50%;
+		}
 				}
 
 		/* Footer */

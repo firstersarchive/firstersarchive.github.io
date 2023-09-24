@@ -1,6 +1,6 @@
 #header {
-		background-image: url("images/overlay.png"), url("../../images/trophy3-final.png");
-		
+		background-image: url("../../images/trophy3-final.png");
+		background-repeat: no-repeat;
 	}
 
 /* XSmall */
@@ -11,6 +11,7 @@
 
 			#header {
 				padding: 26.5em 1.5em;
+						background-repeat: no-repeat;
 			}
 
 
@@ -21,6 +22,7 @@
 	
 			#header {
 				padding: 57em 4em;
+						background-repeat: no-repeat;
 			}
 
 	
