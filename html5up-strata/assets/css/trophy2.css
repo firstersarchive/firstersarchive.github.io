@@ -1,0 +1,26 @@
+#header {
+		background-image: url("images/overlay.png"), url("../../images/trophy2-final.png");
+	}
+
+/* XSmall */
+
+	@media screen and (max-width: 480px) {
+
+		/* Header */
+
+			#header {
+				padding: 23.5em 1.5em;
+			}
+
+
+	}
+
+		@media screen and (max-width: 980px) {
+
+	
+			#header {
+				padding: 57em 4em;
+			}
+
+	
+	}
