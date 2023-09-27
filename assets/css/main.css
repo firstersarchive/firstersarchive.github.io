@@ -2395,6 +2395,10 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 		}
+		
+		table td:first-child {
+  			font-weight: bold
+		}
 
 		table th {
 			color: #787878;
