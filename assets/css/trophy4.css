@@ -1,0 +1,30 @@
+#header {
+		background-image: url("../../images/trophy4-final.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+/* XSmall */
+
+	@media screen and (max-width: 480px) {
+
+		/* Header */
+
+			#header {
+				padding: 12em 1.5em;
+						background-repeat: no-repeat;
+			}
+
+
+	}
+
+		@media screen and (max-width: 980px) {
+
+	
+			#header {
+				padding: 11em 4em;
+						background-repeat: no-repeat;
+			}
+
+	
+	}
